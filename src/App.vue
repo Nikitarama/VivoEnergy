@@ -4,7 +4,7 @@
   
   <nav>
     <router-link to="/">Login</router-link> |
-    <router-link to="/HomeView">Home</router-link> |
+    <router-link to="/HomeView.vue">Home</router-link> |
     <router-link to="/UserProfileView">User Profile</router-link>
   </nav>
   <router-view/>
@@ -18,16 +18,20 @@
   text-align: center;
   color: black;
   font-weight: 200;
+  overflow: hidden;
+  width: fit-content;
 }
 
 nav {
-  padding: 30px;
+  
   position: relative;
-  left: 30rem;
+  left: 40rem;
+  top: 2rem;
   height: 5rem;
   font-family: Raleway;
   color: grey;
-  width: 60%;
+  width: 25rem;
+  margin: 0;
 }
 
 nav a {
@@ -35,7 +39,8 @@ nav a {
   text-decoration: none;
   padding: 1rem;
   font-family: Raleway;
-  color: antiquewhite;
+  color: aliceblue;
+  margin:0;
 }
 
 nav hover:a {
