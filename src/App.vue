@@ -1,7 +1,11 @@
 <template>
+  
+  <!-- <img style="width:200px;" src  ="https://i.postimg.cc/zfRc4VYV/vivo-logo-0.png"> -->
+  
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Login</router-link> |
+    <router-link to="/HomeView">Home</router-link> |
+    <router-link to="/UserProfileView">User Profile</router-link>
   </nav>
   <router-view/>
 </template>
@@ -12,19 +16,35 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: black;
+  font-weight: 200;
 }
 
 nav {
   padding: 30px;
+  position: relative;
+  left: 30rem;
+  height: 5rem;
+  font-family: Raleway;
+  color: grey;
+  width: 60%;
 }
 
 nav a {
-  font-weight: bold;
-  color: #2c3e50;
+  font-weight: 300;
+  text-decoration: none;
+  padding: 1rem;
+  font-family: Raleway;
+  color: antiquewhite;
+}
+
+nav hover:a {
+  text-decoration: line-through;
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: black;
+  font-weight: bold;
 }
+
 </style>
