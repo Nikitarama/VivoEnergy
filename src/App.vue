@@ -1,14 +1,18 @@
 <template>
   
   <!-- <img style="width:200px;" src  ="https://i.postimg.cc/zfRc4VYV/vivo-logo-0.png"> -->
+  <Navbar />
+  <Home />
+  <Footer />
   
-  <nav>
-    <router-link to="/">Login</router-link> |
-    <router-link to="/HomeView.vue">Home</router-link> |
-    <router-link to="/UserProfileView">User Profile</router-link>
-  </nav>
-  <router-view/>
 </template>
+
+<script setup>
+import Home from './components/Home.vue'
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
+
+</script>
 
 <style>
 #app {
@@ -19,37 +23,12 @@
   color: black;
   font-weight: 200;
   overflow: hidden;
-  width: fit-content;
-}
-
-nav {
+  width: 100%;
   
-  position: relative;
-  left: 40rem;
-  top: 2rem;
-  height: 5rem;
-  font-family: Raleway;
-  color: grey;
-  width: 25rem;
-  margin: 0;
 }
 
-nav a {
-  font-weight: 300;
-  text-decoration: none;
-  padding: 1rem;
-  font-family: Raleway;
-  color: aliceblue;
-  margin:0;
-}
-
-nav hover:a {
-  text-decoration: line-through;
-}
-
-nav a.router-link-exact-active {
-  color: black;
-  font-weight: bold;
+body {
+  width: 100%;
 }
 
 </style>

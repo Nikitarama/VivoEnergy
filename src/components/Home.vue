@@ -46,15 +46,15 @@ svg {
   position: absolute;
   top: 0;
   left: 0;
+  width: 84.5rem;
+  z-index: 2;
 }
 .container {
-  display: inline-block;
-  position: absolute;
-  width: 100%;
-            
-  padding-bottom: 40%;
-  vertical-align: middle;
-  overflow: hidden;
+    display: inline-block;
+    position: absolute;
+    padding-bottom: 40%;
+    vertical-align: middle;
+  
   top: 0;
   left: 0;
 }

@@ -1,24 +1,24 @@
 <template>
-  <div class="homePage">
+   <div class="homePage">
     <div class="topOfPage">
-      <h3>This is a portal for Vivo Energy Employees in order to
+      <h3>This is an access portal for Vivo Energy Employees in order to
         upskill and further their knowledge and skills in
         the tech industry
       </h3>
-      <div class="icon">
+       <div class="icon">
         
         <img src="https://i.postimg.cc/pLBTzX65/NBIC-logo-light-bulb.png">
-      </div>
-      <!-- <img src="https://i.postimg.cc/PfmFq5TG/FCnlc95m1-Mwc-Wi-S-bz5p7ml5s9d-FKru0.jpg"> -->
-    </div>
+      </div> 
+       <!-- <img src="https://i.postimg.cc/PfmFq5TG/FCnlc95m1-Mwc-Wi-S-bz5p7ml5s9d-FKru0.jpg">  -->
+     </div>
     
-    <Home />
+     <Home /> 
   </div>
   <div class="vivo">
     <img style="width:200px;" src  ="https://i.postimg.cc/zfRc4VYV/vivo-logo-0.png">
   </div>
 
-  <form>
+   <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -33,9 +33,9 @@
     <label class="form-check-label" for="exampleCheck1">Remember Me</label>
   </div>
   <button type="submit" class="btn btn-danger">Login</button>
-</form>
+</form> 
 
-<Footer />
+ 
 </template>
 
 <script setup>
@@ -51,6 +51,10 @@ import Footer from '../components/Footer.vue'
   margin: 0;
 }
 
+.homePage {
+  width: 100vh;
+}
+
 .topOfPage {
   margin: 1rem;
   width: 30rem;
@@ -61,7 +65,7 @@ import Footer from '../components/Footer.vue'
 
 .topOfPage h3 {
   position: relative;
-  left: 37rem;
+  left: 45rem;
   top: 2rem;
 }
 
@@ -80,7 +84,7 @@ import Footer from '../components/Footer.vue'
 form {
   position: relative;
   bottom: 16rem;
-  left: 12rem;
+  left: 18rem;
   width: 50rem;
   font-family: Raleway;
   font-weight: bold;

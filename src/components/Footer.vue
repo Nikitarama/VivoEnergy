@@ -154,8 +154,9 @@ footer {
     background-image: url('');
     background-position: center;
     background-size: cover;
-    margin-top: -10rem;
+    
     margin-left: -1rem;
+    width: 85rem;
 }
 
 </style>
